@@ -26,6 +26,12 @@ clickThreshold  | num    | No       | 8         | Number of taps required to tri
 clickTimeout    | num    | No       | 3000      | Number of milliseconds after last tap to reset taps
 style           | style  | No       |           | Styles for the container component
 
+## Contributing
+Pull requests are welcome!
+
 ## License
 MIT.
+
+Copyright &copy; 2018 nkov.
+
 Made with :hearts: in NYC.
