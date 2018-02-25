@@ -5,15 +5,15 @@ import { TouchableWithoutFeedback, TouchableOpacity, View } from 'react-native'
 export default class HiddenAction extends React.Component {
     static propTypes = {
         action: PropTypes.func.isRequired,
+        feedback: PropTypes.bool,
         clickThreshold: PropTypes.num,
         clickTimeout: PropTypes.num,
-        feedback: PropTypes.bool,
     }
 
     static defaultProps = {
+        feedback: false,
         clickThreshold: 8,
         clickTimeout: 3000,
-        feedback: false,
     }
 
     constructor (props) {
