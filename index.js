@@ -6,8 +6,8 @@ export default class HiddenAction extends React.Component {
     static propTypes = {
         action: PropTypes.func.isRequired,
         feedback: PropTypes.bool,
-        clickThreshold: PropTypes.num,
-        clickTimeout: PropTypes.num,
+        clickThreshold: PropTypes.number,
+        clickTimeout: PropTypes.number,
     }
 
     static defaultProps = {
