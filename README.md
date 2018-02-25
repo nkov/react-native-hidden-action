@@ -24,6 +24,7 @@ action          | func   | Yes      |           | The action to perform
 feedback        | bool   | No       | false     | Whether to show feedback on press (ie. should use `<TouchableOpacity>`)
 clickThreshold  | num    | No       | 8         | Number of taps required to trigger action
 clickTimeout    | num    | No       | 3000      | Number of milliseconds after last tap to reset taps
+style           | style  | No       |           | Styles for the container component
 
 ## License
 MIT.
